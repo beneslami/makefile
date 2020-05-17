@@ -101,3 +101,5 @@ source2/s2_folder2/main.o: source2/s2_folder2/main.c
   gcc -c source2/s2_folder2/main.c -o source2/s2_folder2/main.o
 ```
 * Switch -lm is for linking dynamic library. There is no need to explicitly mention libmath.so
+
+It is important to note that, rules are not executed line by line in makefile. In fact it is executed in DFS manner.
