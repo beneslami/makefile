@@ -107,5 +107,7 @@ It is important to note that, rules are not executed line by line in makefile. I
 ---
 
 For creating dynamic library (*.so):
- gcc -Wall -fPIC -c *.c
+```
+gcc -Wall -fPIC -c *.c
 gcc -shared -o [NAME_LIB].so *.o
+```
